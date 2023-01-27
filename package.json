@@ -1,0 +1,21 @@
+{
+  "name": "com.postegames.autonomousentities",
+  "version": "1.0.0",
+  "displayName": "PEGLIB - Autonomous Entities",
+  "description": "System for creating boundries and roots for individual in-game entities as expressed in the GameObject hierarchy.",
+  "unity": "2022.2",
+  "dependencies": {
+    "com.postegames.messagedispatcher": "",
+    "com.postegames.collections": "",
+    "com.postegames.typehelper": ""
+  },
+  "keywords": [
+    "gameplay",
+    "game entity"
+  ],
+  "author": {
+    "name": "Sluggy",
+    "email": "jcsluggy@gmail.com",
+    "url": "http:/postegames.com"
+  }
+}
