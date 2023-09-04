@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// Attach to a child object of an entity that should be excluded from

@@ -5,7 +5,7 @@
 using UnityEngine;
 using System;
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// Provides a standardized access point for message dispatching that can
@@ -55,7 +55,7 @@ namespace Toolbox
         /// <param name="hierarchy"></param>
         protected virtual void RegisterWithGlobalPump(GameObject whom, IMessageDispatcher dispatch, LocalMessageDispatchBase lmd, bool hierarchy)
         {
-            if (Toolbox.TypeHelper.IsReferenceNull(whom)) return;
+            if (Peg.TypeHelper.IsReferenceNull(whom)) return;
             //NOTE: if you get NULL REFERENCE EXCEPTION somewhere in here it's probably because you removed
             //a GameObject in the hierarchy at runtime. See above for details why.
             var skip = whom.GetComponent<SkipLocalDispatch>();
@@ -89,7 +89,7 @@ namespace Toolbox
         /// <param name="hierarchy"></param>
         protected static void UnregisterWithGlobalPump(GameObject whom, IMessageDispatcher dispatch, LocalMessageDispatchBase lmd, bool hierarchy)
         {
-            if (Toolbox.TypeHelper.IsReferenceNull(whom)) return;
+            if (Peg.TypeHelper.IsReferenceNull(whom)) return;
             //NOTE: if you get NULL REFERENCE EXCEPTION somewhere in here it's probably because you removed
             //a GameObject in the hierarchy at runtime. See above for details why.
             var skip = whom.GetComponent<SkipLocalDispatch>();

@@ -1,6 +1,6 @@
 using System;
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// 

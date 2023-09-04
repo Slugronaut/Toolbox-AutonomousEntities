@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Events;
 
-namespace Toolbox
+namespace Peg
 {
     [Serializable]
     public class TargetEntityEvent : UnityEvent<EntityRoot> { }

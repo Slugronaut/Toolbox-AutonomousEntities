@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Toolbox
+namespace Peg
 {
     /// <summary>
     /// This component is attached automatically by a <see cref="LocalMessageDispatch"/>
