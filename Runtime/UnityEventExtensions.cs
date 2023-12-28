@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Events;
 
-namespace Peg
+namespace Peg.AutonomousEntities
 {
     [Serializable]
     public class TargetEntityEvent : UnityEvent<EntityRoot> { }

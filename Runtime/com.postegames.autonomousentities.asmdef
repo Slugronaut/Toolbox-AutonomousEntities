@@ -1,6 +1,6 @@
 {
     "name": "com.postegames.autonomousentities",
-    "rootNamespace": "Toolbox",
+    "rootNamespace": "Peg.AutonomousEntities",
     "references": [
         "GUID:7c52243ddb997824ba4d736d17597c55",
         "GUID:01112215c5eed6a419b30b02a246119d",

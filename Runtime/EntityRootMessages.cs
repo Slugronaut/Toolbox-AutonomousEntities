@@ -1,6 +1,7 @@
+using Peg.MessageDispatcher;
 using System;
 
-namespace Peg
+namespace Peg.AutonomousEntities
 {
     /// <summary>
     /// 

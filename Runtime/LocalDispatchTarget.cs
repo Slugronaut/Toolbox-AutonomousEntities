@@ -1,7 +1,7 @@
 ﻿#define LOCALMESSAGEDISPATCH_SUPPRESSTRANSFORMEVENTS
 using UnityEngine;
 
-namespace Peg
+namespace Peg.AutonomousEntities
 {
     /// <summary>
     /// This component is attached automatically by a <see cref="LocalMessageDispatch"/>
@@ -19,7 +19,7 @@ namespace Peg
 
         void Awake()
         {
-            this.hideFlags = HideFlags.NotEditable;
+            hideFlags = HideFlags.NotEditable;
         }
 
 #if UNITY_EDITOR

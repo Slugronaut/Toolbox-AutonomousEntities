@@ -4,6 +4,8 @@
  */
 using UnityEngine;
 using System;
+using Peg.AutonomousEntities;
+using Peg.MessageDispatcher;
 
 namespace Peg
 {

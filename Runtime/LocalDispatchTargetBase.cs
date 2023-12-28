@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Peg
+namespace Peg.AutonomousEntities
 {
     /// <summary>
     /// This component is attached automatically by a <see cref="LocalMessageDispatch"/>
@@ -15,10 +15,10 @@ namespace Peg
     {
         void Awake()
         {
-            this.hideFlags = HideFlags.NotEditable;
+            hideFlags = HideFlags.NotEditable;
         }
 
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         /// <summary>
         /// Run in editor only: We don't want this to exist when in
         /// edit mode so it destroys itself during OnEnable if not in playmode
@@ -31,8 +31,8 @@ namespace Peg
                 return;
             }
         }
-        #endif
-        
+#endif
+
     }
 
 

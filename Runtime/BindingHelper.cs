@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEngine.Assertions;
 using System.Linq.Expressions;
 
-namespace Peg
+namespace Peg.AutonomousEntities
 {
 
     /// <summary>

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 
-namespace Peg
+namespace Peg.AutonomousEntities
 {
     /// <summary>
     /// Attach to a child object of an entity that should be excluded from
